@@ -1,7 +1,7 @@
-package testing;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import testing.Calculator;
+import testing.Test;
 
 public class CalculatorTest {
     public static Calculator calculator;

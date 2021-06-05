@@ -1,4 +1,4 @@
 package testing;
 
-        public @interface Test {
+public @interface Test {
 }
