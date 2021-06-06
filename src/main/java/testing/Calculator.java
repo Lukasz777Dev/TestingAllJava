@@ -8,7 +8,7 @@ public class Calculator {
 
     /*(assert= "testAdditionTwoNumbers")*/
     @Pattern
-    public static int getAddition(int number1, int number2) {
+        public static int getAddition(int number1, int number2) {
         return number1 + number2;
     }
 
