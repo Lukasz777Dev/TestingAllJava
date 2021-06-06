@@ -7,12 +7,12 @@ public class CalculatorTest {
     public static Calculator calculator;
 
     @BeforeEach
-       void setUp() {
+    void setUp() {
         calculator = new Calculator();
     }
 
     @Test
-       public static void shouldSubtractionNumbers() {
+    public static void shouldSubtractionNumbers() {
         Assertions.assertEquals(10, calculator.getSubtraction(15, 5));
     }
 
